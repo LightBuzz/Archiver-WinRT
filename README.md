@@ -7,9 +7,23 @@ Archiver makes compressing and decompressing amazingly easy, using just two line
     Archiver archiver = new Archiver();
     archiver.Compress(source, destination);
         
-... where source and destination are the specified files and folders. You can run the included demo and test by yourselves.
+Where source and destination are the specified files and folders. You can run the included demo and test by yourselves.
 
-## Compressing a single file
+## Installation
+
+The easiest way is to use Nuget, right from Visual Studio:
+
+    PM> Install-Package archiver-winrt
+    
+Otherwise, you can download and build this project.
+
+## Examples
+
+First of all, include a reference to the assembly:
+
+    using LightBuzz.Archiver;
+
+### Compressing a single file
 
     private async void CompressFile()
     {
@@ -37,7 +51,7 @@ Archiver makes compressing and decompressing amazingly easy, using just two line
         }
     }
     
-## Compressing a folder
+### Compressing a folder with its files and subfolders
 
     private async void CompressFolder()
     {
@@ -65,7 +79,7 @@ Archiver makes compressing and decompressing amazingly easy, using just two line
         }
     }
     
-## Decompressing a zip file
+### Decompressing a zip file
 
     private async void Decompress()
     {
