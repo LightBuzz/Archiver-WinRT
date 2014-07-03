@@ -108,7 +108,7 @@ First of all, include a reference to the assembly:
 That's it!
 
 ## Contributors
-* Developed by [Vangos Pterneas](http://pterneas.com) for [LightBuzz](http://lightbuzz.com)
+* [Vangos Pterneas](http://pterneas.com) from [LightBuzz](http://lightbuzz.com)
 * Folder compression partly based on a [tutorial by Jin Yanyun](http://www.rapidsnail.com/Tutorial/t/2012/116/40/23786/windows-and-development-winrt-to-zip-files-unzip-and-folder-zip-compression.aspx)
 
 ## License
