@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="LightBuzz.Archiver.Demo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LightBuzz.Archiver.Demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Compress and decompress files &amp; folders in WinRT" Style="{ThemeResource HeaderTextBlockStyle}" TextAlignment="Center" Margin="20" />
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Width="200" Content="Compress file" Tapped="CompressFile_Tapped" />
+            <Button Width="200" Content="Compress folder" Tapped="CompressFolder_Tapped" />
+            <Button Width="200" Content="Decompress file" Tapped="DecompressFile_Tapped" />
+        </StackPanel>
+    </Grid>
+</Page>
