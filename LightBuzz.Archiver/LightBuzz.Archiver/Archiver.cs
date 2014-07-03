@@ -12,6 +12,9 @@ using Windows.Storage.Streams;
 
 namespace LightBuzz.Archiver
 {
+    /// <summary>
+    /// Compresses and decompresses single files and folders.
+    /// </summary>
     public class Archiver
     {
         /// <summary>
@@ -102,6 +105,8 @@ namespace LightBuzz.Archiver
 
         /// <summary>
         /// Adds the specified folder, along with its files and sub-folders, to the specified archive.
+        /// Creadits to Jin Yanyun
+        /// http://www.rapidsnail.com/Tutorial/t/2012/116/40/23786/windows-and-development-winrt-to-zip-files-unzip-and-folder-zip-compression.aspx
         /// </summary>
         /// <param name="folder">The folder to add.</param>
         /// <param name="archive">The zip archive.</param>
