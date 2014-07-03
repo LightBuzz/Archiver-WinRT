@@ -107,7 +107,7 @@ First of all, include a reference to the assembly:
     
 That's it!
 
-## Credits
+## Contributors
 * Developed by [Vangos Pterneas](http://pterneas.com) for [LightBuzz](http://lightbuzz.com)
 * Folder compression partly based on a [tutorial by Jin Yanyun](http://www.rapidsnail.com/Tutorial/t/2012/116/40/23786/windows-and-development-winrt-to-zip-files-unzip-and-folder-zip-compression.aspx)
 
@@ -115,4 +115,4 @@ That's it!
 You are free to use these libraries in personal and commercial projects by attributing the original creator of Vitruvius. Licensed under [Apache v2 License](https://github.com/LightBuzz/archiver-winrt/blob/master/LICENSE).
 
 ## Support Archiver
-Do you use Vitruvius in your projects? Do you find it helpful? [Buy us a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N5ELYBTYB3AYE)!
+Do you use Archiver in your projects? Do you find it helpful? [Buy us a beer](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=N5ELYBTYB3AYE)!
